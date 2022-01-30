@@ -11,3 +11,6 @@ The rate control protocol is the key part of the ultimate goal of UCSMA, which a
 
 1. buffer enqueue delay: a packet will need to wait a certain time interval (positively proportional to the current buffer size) before being enqueued into the transmission buffer; 
 2. contention window adjustment: we set lower CW for nodes with fuller buffer to allow their packets to be send our quicker.
+
+## Packetspammer
+Packetspammer is a throughput-measurement tool that injects unencrypted broadcast packets over Wi-Fi. This utility is adapted from Andy Green's Packetspammer.
