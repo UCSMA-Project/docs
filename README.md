@@ -1,3 +1,8 @@
+---
+title: Home
+nav-order: 1
+---
+
 # UCSMA Docs
 This site contains documentations for all UCSMA projects. The content in this page intends to provide a short overview of each projects, while the details can be found in the subpages in the navigation sidebar. 
 
