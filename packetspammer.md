@@ -96,5 +96,5 @@ mips-openwrt-linux-uclibc-gcc.bin: warning: environment variable 'STAGING_DIR' n
 - [ ] Clean up packetspammer.*: `n80211HeaderLength`, `nCaptureHeaderLength`, `unlikely`, `u*`, `radiotap_hdr_t`, ...
 - [ ] Update / simplify build.sh
 - [ ] Fix Makefile
-    - [ ] Simplify install and send
-    - [ ] Parametrize packetspammer recipe
+  - [ ] Simplify install and send
+  - [ ] Parametrize packetspammer recipe
