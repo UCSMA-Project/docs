@@ -15,10 +15,10 @@ title: Rate Control
 
 
 
-### main function usage 
-ath_cw_update (836-865)
+### Main Functions
+`ath_cw_update()` (836-865)
 * Set up contention window based on the buffer size
 * Larger buffer -> larger contention window
 
-ath_tx_default_wait (878-880)
+`ath_tx_default_wait()` (878-880)
 * set the default waiting time.
