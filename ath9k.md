@@ -1,9 +1,9 @@
 ---
-title: ath9k
+title: Network Driver (ath9k)
 nav_order: 2
 ---
 
-# `ath9k`
+# Network Driver (`ath9k`)
 
 ## Overview
 
