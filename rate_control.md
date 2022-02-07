@@ -1,8 +1,8 @@
 ---
-title: Rate Control (WIP)
+title: Rate Control
 ---
 
-# Rate Control (WIP)
+# Rate Control
 
 ## Getting started
 
