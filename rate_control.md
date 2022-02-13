@@ -4,6 +4,8 @@ title: Rate Control
 
 # Rate Control
 
+[🔗 GitHub Repository](https://github.com/UCSMA-Project/ucsma-rate-control)
+
 ## Overview
 
 The rate control protocol is the key part of the ultimate goal of UCSMA, which attempts to maintain fairness among different nodes in an ad-hoc wireless network. There are two parts of the rate control protocol:

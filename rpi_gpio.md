@@ -4,6 +4,8 @@ title: RPi GPIO & TX Timeline
 
 # RPi GPIO & TX Timeline
 
+[🔗 GitHub Repository](https://github.com/UCSMA-Project/ucsma-raspi-gpio)
+
 ## Overview
 
 It is important to keep track of the transmission timeline of the nodes while conducting experiments, which provides info of the finish times of packet transmissions. In the current setup, all nodes connect to a Raspberry Pi via GPIO and send a GPIO pulse once a packet has finished transmission (at `TX_OK` interrupts); the RPi then generates transmission timeslines for the nodes. 
