@@ -29,7 +29,7 @@ insmod ath9k.ko
 ./init_mon0.sh  # you may need to change phy0
 ```
 
-## Technical Details
+## Technical details
 
 ### Buffer enqueue delay
 

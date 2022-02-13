@@ -17,3 +17,6 @@ The rate control protocol is the key part of UCSMA, which attempts to maintain f
 
 ## Packetspammer
 Packetspammer is a throughput-measurement tool that injects unencrypted broadcast packets over Wi-Fi. This utility is adapted from Andy Green's Packetspammer.
+
+## Raspberry Pi GPIO & Transmission Monitoring
+It is important to keep track of the transmission timeline of the nodes while conducting experiments, which provides info of the finish times of packet transmissions. In the current setup, all nodes connect to a Raspberry Pi via GPIO and send a GPIO pulse once a packet has finished transmission (at `TX_OK` interrupts); the RPi then generates transmission timeslines for the nodes. 
