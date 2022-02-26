@@ -3,10 +3,9 @@ title: Kernel Patches
 ---
 # Kernel Patches
 
-What it is
-What an OpenWRT kernel patch is
-
 * Patches get applied to "$BUILD_DIR/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_generic/compat-wireless-2014-05-22/drivers"
+* Patches modify the kernel source code at build time, and are like an "add-on" to kernel code
+* Patches are of the same format as a `git diff` output
 
 * Note, some of these changes are cosmetic, see commit (de3fcd38b2caecc0bc878e8bc992fe33aa23bf25)[https://github.com/UCSMA-Project/OpenWRT-14.07-JS9331/commit/de3fcd38b2caecc0bc878e8bc992fe33aa23bf25#diff-13af2413196137d2b1c0c5c56f319bd9358fc0ee620e3bbae2fea88fe8810933], with file "008-fix_netdev_unregister.patch" for example 
 
