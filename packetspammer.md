@@ -14,6 +14,13 @@ Note: the compiled binary only works on the AR9331 board, with OpenWRT 14
 
 Note: latest code in [ucsma-rate-control](https://github.com/UCSMA-Project/ucsma-rate-control/tree/master/packetspammer)
 
+## Main functionalities 
+
+* Construct a packet with a radiotap header and pass it to OS kernel by calling `pcap_inject()` in `libpcap`.
+* Set the delay between passing two packets to the OS kernel.
+    * Setting the delay to 0 tells the hardware to transmit as fast as possible.
+* Calculate the actual rate that it feeds packets to the OS kernel. This is done by using `libpthread`.
+
 ## Getting started
 
 ### Prerequisites
@@ -102,3 +109,6 @@ mips-openwrt-linux-uclibc-gcc.bin: warning: environment variable 'STAGING_DIR' n
 - [ ] Fix Makefile
     * Simplify install and send
     * Parametrize packetspammer recipe
+
+## Further readings
+* (Wireless Packet Injection)[https://github.com/UCSMA-Project/unpublished-docs/blob/f7b42e12a9afcb3f788b5bfbffe54fa069ad6e51/packet_injection_procedure.md]
